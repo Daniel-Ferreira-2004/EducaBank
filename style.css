@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #4E87A8;
+    height: 20vh;
+    width: 100%;
+}
+
+.nav-cabecalho {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 3em;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding-left: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 12px;
+}
+
+header nav ul li :hover {
+    color: #5163CD;
+    transition: 1s;
+}
+
+.AbrirConta {
+    background: linear-gradient(#BDCCCE, #5DA9A9);
+    height: 83vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divConta {
+  margin-left: 15%;
+}
+
+.divConta h1 {
+    font-size: 3em;
+    color: #303B3C;
+}
+
+.divConta h2 {
+    color: #00001D;
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+.botao {
+    padding: 1em;
+    width: 18em;
+    border-radius: 2em;
+    color: #13996C;
+    border-top: 2px solid #13996C;
+    border-left-color: #13996C;
+}
+
+.linkBotao :hover {
+    background-color: #5AA8A8;
+    transition: 1s;
+    color: white;
+}
+
+.celular {
+    background-color: #E2E9E9;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+}
+
+.celularConteudo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.celularTexto {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.celularTexto h3 {
+    font-size: 2em;
+    color: #250202;
+    padding-bottom: 1em;
+}
+
+.celularTexto button {
+    margin-left: 2em;
+}
+
+.educabank {
+    background-color: #E2E9E9;
+}
+
+.educabankConteudo {
+    
+}
