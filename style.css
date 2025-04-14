@@ -3,7 +3,7 @@
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-
+    font-family: Verdana, Geneva, Tahom+a, sans-serif;
 }
 
 header {
@@ -17,6 +17,7 @@ header {
     justify-content: end;
     align-items: center;
     padding: 3em;
+    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -47,7 +48,7 @@ header nav ul li :hover {
 }
 
 .divConta {
-  margin-left: 15%;
+  margin-left: 12%;
 }
 
 .divConta h1 {
@@ -68,17 +69,33 @@ header nav ul li :hover {
     color: #13996C;
     border-top: 2px solid #13996C;
     border-left-color: #13996C;
+    cursor: pointer;
 }
 
+.botao2 {
+    padding: 1em;
+    width: 18em;
+    border-radius: 2em;
+    border: 2px solid #3232E2;
+    color: #3232E2;
+    cursor: pointer;
+}
+
+.botao:hover {
+    border-top: 2px solid white;
+    border-left-color: white;
+    border-right-color: #53535334;
+    border-bottom-color: #53535334;
+}
 .linkBotao2 :hover{
     background-color: #3232E2;
-    transition: 1s;
+    transition: 0.5s;
     color: white;
 }
 
 .linkBotao :hover {
     background-color: #5AA8A8;
-    transition: 1s;
+    transition: 0.5s;
     color: white;
 }
 
@@ -101,7 +118,6 @@ header nav ul li :hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .celularTexto h3 {
@@ -160,7 +176,9 @@ header nav ul li :hover {
 }
 
 .cofre {
-    background:linear-gradient(#999ED5, #4B6392) ;
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(img/CofreDeFundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 120vh;    
 }
