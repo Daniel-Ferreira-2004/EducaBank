@@ -4,6 +4,8 @@
     list-style-type: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahom+a, sans-serif;
+    box-sizing: border-box;
+    /*Ajuda a deixar os elementos organizados dentros das caixas*/
 }
 
 header {
