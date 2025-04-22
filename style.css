@@ -1,15 +1,22 @@
+:root {
+    --font-color: white;
+    --module-size : 1em;
+    --font-family: helvetica, arial, sans-serif;
+    --primary-color: #4E87A8;
+}
+
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahom+a, sans-serif;
+    font-family: var(--font-family);
     box-sizing: border-box;
     /*Ajuda a deixar os elementos organizados dentros das caixas*/
 }
 
 header {
-    background-color: #4E87A8;
+    background-color: var(--primary-color);
     height: 20vh;
     width: 100%;
 }
